@@ -11,7 +11,7 @@ $sshKeyName = "linuxboxsshkey"
 $sshKeyPublicKey = Get-Content ".\id_rsa.pub"
 $vmName = "matebox"
 $vmImage = "Ubuntu2204"
-$vmSize = "Standard_B2ts_v2"
+$vmSize = "Standard_B1s"
 
 Write-Host "Creating a resource group $resourceGroupName ..."
 New-AzResourceGroup -Name $resourceGroupName -Location $location
